@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    font-size: 12pt;
+    line-height: 1.2;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.header, .section {
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    margin: 0;
+    text-align: center;
+}
+/*chat gpt code */
+.header p:first-of-type {
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.header p {
+    margin: 5px 0;
+    line-height: .75;
+}
+
+.section h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.section p, .section li {
+    margin: 5px 0;
+    line-height: 1;
+    font-size: 12px;
+}
+
+.section ul {
+    margin-left: 20px;
+    padding: 0;
+    line-height: .75;
+    font-size: 12px;
+}
+ul {
+    font-size: 12px; 
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+.bold {
+    font-weight: bold;
+    line-height: .75;
+}
+/*chat gpt code */
+.left-text {
+    text-align: left;
+}
+/*chat gpt code */
+.right-text {
+    text-align: right;
+}
+/*chat gpt code */
+.split-text {
+    display: flex;
+    justify-content: space-between;
+}
+/*chat gpt code */
+.split-text .bold, .split-text .right-text {
+    margin: 0; 
+}
+/*chat gpt code */
+.header h1, .section h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1; /* Adjusted line-height */
+    margin-top: 0; /* Removed top margin to reduce space above headers */
+    margin-bottom: 0.5em; /* Adjusted bottom margin to reduce space below headers */
+}
+
+@media print {
+    @page {
+      margin: 0;
+    }
+  }
+
+.pdf {
+    text-align: center;
+}
